@@ -1,0 +1,23 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "SPARK MAX [4]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/com_autonomous": "Command",
+      "/SmartDashboard/com_robotdrive: JOYRemote": "Command",
+      "/SmartDashboard/com_robotdrive: PS4Remote": "Command"
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
