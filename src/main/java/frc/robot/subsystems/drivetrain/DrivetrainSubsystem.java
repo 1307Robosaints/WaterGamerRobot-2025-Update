@@ -49,11 +49,10 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
     }
 
-    public void driverobot(double xAxis, double yAxis, double r_xAxis, double Throttle) {
+    public void driverobot(double xAxis, double yAxis, double r_xAxis) {
 
+        double Throttle = .5;
         //Deadzones
-
-
         if (Math.abs(xAxis) < deadzone) {
             xAxis = 0;
         }

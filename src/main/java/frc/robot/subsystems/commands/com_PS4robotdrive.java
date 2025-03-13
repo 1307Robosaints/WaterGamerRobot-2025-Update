@@ -66,7 +66,7 @@ public class com_PS4robotdrive extends Command {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        m_drivetrain.driverobot(m_xAxis.getAsDouble(), m_yAxis.getAsDouble(), m_Rotate.getAsDouble(), m_Throttle);
+        m_drivetrain.driverobot(m_xAxis.getAsDouble(), m_yAxis.getAsDouble(), m_Rotate.getAsDouble());
 
     }
 
